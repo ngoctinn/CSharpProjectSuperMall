@@ -38,5 +38,9 @@ namespace Models
         {
             return 1574009819 + DiscountId.GetHashCode();
         }
+        public static void UpdateAutoId(int v)
+        {
+            s_autoId = v;
+        }
     }
 }

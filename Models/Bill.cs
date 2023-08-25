@@ -47,5 +47,9 @@ namespace Models
         {
             return 740390073 + BillId.GetHashCode();
         }
+        public static void UpdateAutoId(int v)
+        {
+            s_autoId = v;
+        }
     }
 }

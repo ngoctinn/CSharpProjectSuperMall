@@ -84,6 +84,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddEditItemFrm.resx">
+      <DependentUpon>AddEditItemFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeFrm.resx">
+      <DependentUpon>HomeFrm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -92,6 +98,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -115,6 +122,27 @@
       <Project>{34f4fe80-bc82-49c9-a824-cd05f2518de5}</Project>
       <Name>Models</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\add.png" />
+    <Content Include="Images\bill.png" />
+    <Content Include="Images\bin.png" />
+    <Content Include="Images\chart.png" />
+    <Content Include="Images\credit-card.png" />
+    <Content Include="Images\customer.png" />
+    <Content Include="Images\editing.png" />
+    <Content Include="Images\icon.ico" />
+    <Content Include="Images\logout.png" />
+    <Content Include="Images\mobile-payment.png" />
+    <Content Include="Images\refresh.png" />
+    <Content Include="Images\remove.png" />
+    <Content Include="Images\save_file.png" />
+    <Content Include="Images\search.png" />
+    <Content Include="Images\search_16.png" />
+    <Content Include="Images\search_24.png" />
+    <Content Include="Images\shopping-bag.png" />
+    <Content Include="Images\stat.png" />
+    <Content Include="Images\tag.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

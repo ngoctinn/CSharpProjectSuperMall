@@ -40,5 +40,9 @@ namespace Models
         {
             return CartId - other.CartId;
         }
+        public static void UpdateAutoId(int v)
+        {
+            s_autoId = v;
+        }
     }
 }

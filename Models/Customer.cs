@@ -52,7 +52,7 @@ namespace Models
 
         public int CompareTo(Customer other)
         {
-            return Person.PersonId.CompareTo(other.PersonId);
+            return PersonId.CompareTo(other.PersonId);
         }
     }
 }
